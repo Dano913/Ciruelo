@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallumbos Ciruelo</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <input type="checkbox" id="darkmode-toggle" class="darkmode-toggle" checked>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <div class="wrapper">
+            <header class="header">
+                <div class="header-container">
+                    <div class="header-content">
+                        <a href="#" class="logo">
+                            <div class="logo-icon">
+                                <img src="logoGC2.png">
+                            </div>
+                            <div class="logo-text">
+                                <h1>Gallumbos Ciruelo</h1>
+                                <p class="slogan-desktop">La comodidad auténtica empieza en las esferas de la corona</p>
+                            </div>
+                        </a>
+                        <div class="header-actions">
+                            <label for="darkmode-toggle" class="darkmode-btn">
+                                <span class="sun-icon">☀</span>
+                                <span class="moon-icon">☾</span>
+                            </label>
+                            <label for="nav-toggle" class="menu-btn">
+                                <span class="menu-icon">☰</span>
+                                <span class="close-icon">✕</span>
+                            </label>
+                        </div>
+                        <nav class="nav-desktop">
+                            <ul>
+                                <li><a href="#inicio">Inicio</a></li>
+                                <li><a href="#collection">Colección</a></li>
+                                <li><a href="#about">Sobre nosotros</a></li>
+                                <li><a href="#contacto" class="btn-contact">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <nav class="nav-mobile">
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#collection">Colección</a></li>
+                            <li><a href="#about">Sobre nosotros</a></li>
+                            <li><a href="#contacto" class="btn-contact-mobile">Contacto</a></li>
+                        </ul>
+                    </nav>
+                    <p class="slogan-mobile">La comodidad auténtica empieza en las esferas de la corona</p>
+                </div>
+            </header>
+            
+            <main>
+                <section id="inicio" class="hero">
+                    <!-- Split Background Images -->
+                    <div class="hero-images">
+                        <div class="hero-image-left">
+                            <img src="hero7.jpg">
+                            <div class="hero-gradient-right"></div>
+                        </div>
+                        <div class="hero-image-right">
+                            <img src="hero6.jpg">
+                            <div class="hero-gradient-left"></div>
+                        </div>
+                    </div>
+
+                    <!-- Overlay -->
+                    <div class="hero-overlay"></div>
+
+                    <!-- Hero Content -->
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h2>
+                                Comodidad auténtica<br>
+                                <span class="gradient-text">desde la base</span>
+                            </h2>
+
+                            <p>
+                                Gallumbos Ciruelo redefine la ropa interior masculina:
+                                diseño cuidado, ajuste perfecto y confort premium
+                                pensado para el día a día.
+                            </p>
+
+                            <div class="hero-buttons">
+                                <a href="#about" class="btn-primary">Quiénes somos</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="about" class="about">
+                    <div class="about-container">
+                        <div class="about-grid">
+                            <!-- Images Grid -->
+                            <div class="about-images">
+                                <div class="about-image">
+                                    <img src="hero4.jpg" alt="Gallumbos Ciruelo - Imagen 1">
+                                </div>
+                                <div class="about-image">
+                                    <img src="seda.jpg" alt="Gallumbos Ciruelo - Imagen 2">
+                                </div>
+                            </div>
+
+                            <!-- Content -->
+                            <div class="about-content">
+                                <div class="about-header">
+                                    <h2>Sobre Nosotros</h2>
+                                </div>
+
+                                <div class="about-cards">
+                                    <div class="about-card">
+                                        <p>
+                                            <strong>Gallumbos Ciruelo</strong> es una marca de ropa interior masculina diseñada para hombres que valoran la comodidad, la calidad y el diseño.
+                                        </p>
+                                    </div>
+
+                                    <div class="about-card">
+                                        <p>
+                                            <p>
+                                                Nuestra colección está pensada para personas activas que buscan <strong>comodidad y estilo</strong> en su día a día. Combinamos materiales naturales con un diseño <strong>elástico y ergonómico</strong> que se adapta a tu cuerpo, ideal para quienes valoran practicidad sin renunciar al estilo.
+                                            </p>
+
+                                        </p>
+                                    </div>
+
+                                    <div class="about-card">
+                                        <p>
+                                            <p>
+                                                No se trata solo de ropa: se trata de <strong>experiencias</strong>. Producción consciente y confort auténtico en cada pieza que llevas puesta.
+                                            </p>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="about-cta">
+                                    <a href="#collection" class="btn-primary">
+                                        Ver colección
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="collection" class="products">
+                    <div class="products-container">
+                        <div class="products-header">
+                            <h2>Nuestra colección</h2>
+                            <div class="products-divider"></div>
+                        </div>
+
+                        <div class="product-grid">
+                            <!-- Product 1 - Clásico -->
+                            <article class="product">
+                                <figure class="product-figure">
+                                    <img src="https://images.unsplash.com/photo-1713881630214-82c44407cf25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGFzc2ljJTIwdW5kZXJ3ZWFyJTIwd2hpdGV8ZW58MXx8fHwxNzY2NTcyMjM1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Gallumbo clásico">
+                                    <figcaption>Modelo Clásico</figcaption>
+                                </figure>
+                                <div class="product-info">
+                                    <h3>Gallumbo Clásico</h3>
+                                    <p>Diseño tradicional con máxima comodidad.</p>
+                                    <div class="product-footer">
+                                        <span class="price">12,99 €</span>
+                                        <a href="#" class="btn-details">Ver detalles</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Product 2 - Deportivo -->
+                            <article class="product">
+                                <figure class="product-figure">
+                                    <img src="https://images.unsplash.com/photo-1763656812784-918fbdb112af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdGhsZXRpYyUyMHNwb3J0c3dlYXIlMjBmYWJyaWN8ZW58MXx8fHwxNzY2NTcyMjM1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Gallumbo deportivo">
+                                    <figcaption>Modelo Deportivo</figcaption>
+                                </figure>
+                                <div class="product-info">
+                                    <h3>Gallumbo Deportivo</h3>
+                                    <p>Ideal para el día a día y actividades físicas.</p>
+                                    <div class="product-footer">
+                                        <span class="price">14,99 €</span>
+                                        <a href="#" class="btn-details">Ver detalles</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Product 3 - Premium -->
+                            <article class="product">
+                                <figure class="product-figure">
+                                    <img src="https://images.unsplash.com/photo-1622621944707-e2e31c4e5695?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwY290dG9uJTIwdGV4dGlsZXxlbnwxfHx8fDE3NjY1NzIyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Gallumbo premium">
+                                    <figcaption>Modelo Premium</figcaption>
+                                </figure>
+                                <div class="product-info">
+                                    <h3>Gallumbo Premium</h3>
+                                    <p>Algodón suave y ajuste ergonómico.</p>
+                                    <div class="product-footer">
+                                        <span class="price">18,99 €</span>
+                                        <a href="#" class="btn-details">Ver detalles</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <section class="highlight">
+                    <div class="highlight-container">
+                        <h2>Nuestra ventaja</h2>
+                        <div class="highlight-benefits">
+                            <p>
+                                <span class="check">✔</span> Algodón 100% natural
+                            </p>
+                            <p>
+                                <span class="check">✔</span> Diseño ergonómico
+                            </p>
+                            <p>
+                                <span class="check">✔</span> Fabricado en España
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="contacto" class="contact">
+                    <div class="contact-container">
+                        <div class="contact-header">
+                            <h2>Contacto</h2>
+                            <p>¿Tienes alguna pregunta? Estamos aquí para ayudarte</p>
+                        </div>
+
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="type">Tipo de consulta</label>
+                                <select id="type" name="type">
+                                    <option>Información general</option>
+                                    <option>Pedidos</option>
+                                    <option>Devoluciones</option>
+                                    <option>Otros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">Enviar</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <div class="footer-container">
+                    <p>© 2025 Gallumbos Ciruelo. Todos los derechos reservados.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
